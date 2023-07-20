@@ -35,3 +35,34 @@ height: 1.5rem;
         height: 50px;
        
       }
+
+      .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4em;
+      }
+
+      .sub-title{
+        display: flex;
+        gap: 1rem;
+        font-size: 1rem;
+        color: rgba(0, 0, 0, 0.356);
+        margin: 0;
+        padding: 0;
+        width: 20vw;
+      margin-right: 100px;
+      }
+
+      .news{  display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .news-item{
+      background-color: rgb(224, 221, 221);
+      padding: 20px;
+      height: 200px;
+      position: relative;
+    }
