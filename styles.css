@@ -24,7 +24,13 @@ height: 1.5rem;
 
   .nav-links{display: none;}
 
- 
+  .sub-title p{display: none;}
+
+  .news-heading{position: absolute;
+  display: flex;
+justify-content: left;
+padding-left: 40px;}
+
 
 }
 
